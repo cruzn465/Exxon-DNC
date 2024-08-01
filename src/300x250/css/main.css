@@ -19,64 +19,54 @@ body { margin:0px 0px; padding:0px; }
 	background-repeat:no-repeat;
 }
 
-
-#bg_2x {
-	left:0px;
-	top:0px;
-	width:300px;
-	height:250px;
-	background-image:url(../img/bg_2x.jpg);
-	background-size:300px 250px;
-}
-
 #c1_2x {
-	left:13px;
-	top:94px;
-	width:130px;
-	height:26px;
+	left:11px;
+	top:66px;
+	width:16px;
+	height:16px;
 	background-image:url(../img/c1_2x.png);
-	background-size:130px 26px;
+	background-size:16px 16px;
 }
 
 #c2_2x {
-	left:150px;
-	top:94px;
-	width:110px;
-	height:20px;
+	left:33px;
+	top:65px;
+	width:62px;
+	height:17px;
 	background-image:url(../img/c2_2x.png);
-	background-size:110px 20px;
+	background-size:62px 17px;
 }
 
 #c3_2x {
-	left:12px;
-	top:131px;
-	width:105px;
-	height:20px;
+	left:101px;
+	top:70px;
+	width:89px;
+	height:17px;
 	background-image:url(../img/c3_2x.png);
-	background-size:105px 20px;
+	background-size:89px 17px;
 }
 
 #c4_2x {
-	left:125px;
-	top:125px;
-	width:143px;
-	height:20px;
+	left:195px;
+	top:65px;
+	width:44px;
+	height:17px;
 	background-image:url(../img/c4_2x.png);
-	background-size:143px 20px;
+	background-size:44px 17px;
 }
 
 #cta10_2x {
 	left:99px;
-	top:176px;
-	width:13px;
+	top:188px;
+	width:12px;
 	height:8px;
 	background-image:url(../img/cta10_2x.png);
-	background-size:13px 8px;
+	background-size:12px 8px;
 }
 
 #cta1_2x {
-	left:27px;
-	top:173px;
+	left:26.5px;
+	top:185px;
 	width:8px;
 	height:11px;
 	background-image:url(../img/cta1_2x.png);
@@ -85,7 +75,7 @@ body { margin:0px 0px; padding:0px; }
 
 #cta2_2x {
 	left:34.5px;
-	top:176px;
+	top:188px;
 	width:10px;
 	height:8px;
 	background-image:url(../img/cta2_2x.png);
@@ -93,17 +83,17 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #cta3_2x {
-	left:43.5px;
-	top:175.5px;
-	width:9px;
+	left:44px;
+	top:187.5px;
+	width:8px;
 	height:12px;
 	background-image:url(../img/cta3_2x.png);
-	background-size:9px 12px;
+	background-size:8px 12px;
 }
 
 #cta4_2x {
-	left:53px;
-	top:172px;
+	left:52.5px;
+	top:184px;
 	width:3px;
 	height:12px;
 	background-image:url(../img/cta4_2x.png);
@@ -111,8 +101,8 @@ body { margin:0px 0px; padding:0px; }
 }
 
 #cta5_2x {
-	left:56.5px;
-	top:175.5px;
+	left:56px;
+	top:187.5px;
 	width:8px;
 	height:9px;
 	background-image:url(../img/cta5_2x.png);
@@ -121,7 +111,7 @@ body { margin:0px 0px; padding:0px; }
 
 #cta6_2x {
 	left:65px;
-	top:176px;
+	top:188px;
 	width:5px;
 	height:8px;
 	background-image:url(../img/cta6_2x.png);
@@ -130,7 +120,7 @@ body { margin:0px 0px; padding:0px; }
 
 #cta7_2x {
 	left:70px;
-	top:175.5px;
+	top:187.6px;
 	width:8px;
 	height:9px;
 	background-image:url(../img/cta7_2x.png);
@@ -139,7 +129,7 @@ body { margin:0px 0px; padding:0px; }
 
 #cta8_2x {
 	left:82px;
-	top:172px;
+	top:184px;
 	width:8px;
 	height:12px;
 	background-image:url(../img/cta8_2x.png);
@@ -148,7 +138,7 @@ body { margin:0px 0px; padding:0px; }
 
 #cta9_2x {
 	left:90.5px;
-	top:175.5px;
+	top:187.5px;
 	width:9px;
 	height:9px;
 	background-image:url(../img/cta9_2x.png);
@@ -157,7 +147,7 @@ body { margin:0px 0px; padding:0px; }
 
 #ctaArr_2x {
 	left:115px;
-	top:174px;
+	top:185px;
 	width:5px;
 	height:10px;
 	background-image:url(../img/ctaArr_2x.png);
@@ -166,7 +156,7 @@ body { margin:0px 0px; padding:0px; }
 
 #ctaBub_2x {
 	left:12px;
-	top:167px;
+	top:178px;
 	width:121px;
 	height:26px;
 	background-image:url(../img/ctaBub_2x.png);
@@ -188,6 +178,67 @@ body { margin:0px 0px; padding:0px; }
 	width:300px;
 	height:250px;
 	background-image:url(../img/bg.jpg);
-	background-size:300px 250px;
-	opacity: 0;
+}
+
+#c5_2x {
+	left:11px;
+	top:90px;
+	width:43px;
+	height:17px;
+	background-image:url(../img/c5_2x.png);
+	background-size:43px 17px;
+}
+
+#c6_2x {
+	left:61px;
+	top:90px;
+	width:55px;
+	height:17px;
+	background-image:url(../img/c6_2x.png);
+	background-size:55px 17px;
+}
+
+#c7_2x {
+	left:121px;
+	top:90px;
+	width:101px;
+	height:17px;
+	background-image:url(../img/c7_2x.png);
+	background-size:101px 17px;
+}
+
+#c10_2x {
+	left:12px;
+	top:141px;
+	width:117px;
+	height:22px;
+	background-image:url(../img/c10_2x.png);
+	background-size:117px 22px;
+}
+
+#c11_2x {
+	left:138px;
+	top:141px;
+	width:121px;
+	height:17px;
+	background-image:url(../img/c11_2x.png);
+	background-size:121px 17px;
+}
+
+#c8_2x {
+	left:12px;
+	top:116px;
+	width:75px;
+	height:22px;
+	background-image:url(../img/c8_2x.png);
+	background-size:75px 22px;
+}
+
+#c9_2x {
+	left:94px;
+	top:116px;
+	width:119px;
+	height:17px;
+	background-image:url(../img/c9_2x.png);
+	background-size:119px 17px;
 }

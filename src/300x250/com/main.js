@@ -64,13 +64,25 @@ function addListeners(){
 //ANIMATE
 function animate(){
     stopWatch=new Date().getTime(); 
+    // const c_sent_1 = [c1_2x,c2_2x,c3_2x,c4_2x,c5_2x,c6_2x,c7_2x]
+    // const c_sent_2 = [c8_2x,c9_2x,c10_2x]
+    const c_line_1 = [c1_2x,c2_2x,c3_2x,c4_2x]
+    const c_line_2 = [c5_2x,c6_2x,c7_2x]
+    const c_line_3 = [c8_2x,c9_2x]
+    const c_line_4 = [c10_2x]
+
     const cta = [cta1_2x,cta2_2x,cta3_2x,cta4_2x,cta5_2x,cta6_2x,cta7_2x,cta8_2x,cta9_2x,cta10_2x,ctaArr_2x]
     //timeline animation here
     tl
     .from(container,1,{opacity:0,ease:Power1.easeOut},0)
-    .staggerFrom([c1_2x,c2_2x,c3_2x],.5,{opacity:0,y:30,ease:Power1.easeOut},.15,.6)
-    .from(c4_2x,.5,{opacity:0,y:-20,ease:Power1.easeOut},1.85)
-    .from(ctaBub_2x,.5,{scaleX:0,scaleY:0,ease:Power1.easeOut},2.75)
+    .staggerFrom([c_line_1,c_line_2],.5,{opacity:0,y:30,ease:Power1.easeOut},.55,"+=0")
+    // .staggerFrom(c_line_3,.5,{opacity:0,y:30,ease:Power1.easeOut},.3,"+=.6")
+    .staggerFrom([c_line_3,c_line_4],.5,{opacity:0,y:30,ease:Power1.easeOut},.55,"+=.4")
+
+
+
+    .from(c11_2x,.5,{opacity:0,y:-20,ease:Power1.easeOut},"+=.9")
+    .from(ctaBub_2x,.5,{scaleX:0,scaleY:0,ease:Power1.easeOut},"+=.3")
 
 
     // not working? this repeats a bunch of times idk why
@@ -79,9 +91,9 @@ function animate(){
     //     TweenLite.to(ctaArr_2x,.5,{x:0,delay:1})
         
     // }},.05,3)
-    .staggerFrom(cta,.3,{opacity:0,x:30,ease:Power1.easeOut},.05,3)
-    .fromTo(ctaArr_2x, .5, {x:0,ease:Power2.easeInOut}, {x:6,ease:Power2.easeInOut})
-    .to(ctaArr_2x,.3,{x:0,ease:Power2.easeInOut})
+    .staggerFrom(cta,.3,{opacity:0,x:30,ease:Power1.easeOut},.05,"-=.1")
+    .fromTo(ctaArr_2x, .5, {x:0,ease:Power2.easeInOut}, {x:6,ease:Power2.easeInOut},"-=.1")
+    .to(ctaArr_2x,.3,{x:0,ease:Power2.easeInOut},"-=.1")
 
     
 
